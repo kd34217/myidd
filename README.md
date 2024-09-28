@@ -1,10 +1,7 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ID Information - Bhoomika Singh</title>
+    <title>Your ID Information</title>
     <style>
         body {
             font-family: Times New Roman, sans-serif;
@@ -12,31 +9,31 @@
             margin-top: 50px;
         }
         .id-container {
-            max-width: 500px;
-            margin: 0 auto;
-            text-align: left;
             border: 1px solid #ccc;
             padding: 20px;
-            border-radius: 10px;
-            background-color: #f9f9f9;
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
         }
-        .id-container h2 {
-            text-align: center;
+        h2 {
+            color: #333;
         }
-        .id-info {
-            line-height: 1.8;
+        .verified {
+            color: green;
+            font-weight: bold;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="id-container">
-        <h2>Aadhaar Card</h2>
-        <div class="id-info">
-            <p><strong>Name:</strong> Bhoomika Singh</p>
-            <p><strong>Date of Birth:</strong> 21-07-2002</p>
-            <p><strong>Gender:</strong> Female</p>
-            <p><strong>Address:</strong> No. 17 A, 8th cross, Bangalore North, Vishweshwaraiah Layout, Nagasandra, Bangalore North, Bengaluru, Karnataka - 560073</p>
-        </div>
+        <h2>Unique Identification Authority of India</h2>
+        <p><strong>Aadhaar Number:</strong> xxxxxxxx0822</p>
+        <p><strong>Name:</strong> Piya Nair</p>
+        <p><strong>Date of Birth:</strong> 18-03-2002</p>
+        <p><strong>Gender:</strong> Female</p>
+        <p><strong>Address:</strong> 2/1 Maa Saraswati Colony, Tilhari, Tilhari, Near Akarsh Enclave, Jabalpur, Gauraiyaghat, Madhya Pradesh - 482021</p>
+        <p class="verified">Verified by DigiLocker</p>
     </div>
 </body>
 </html>
